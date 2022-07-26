@@ -1,0 +1,23 @@
+/* Colors */
+
+$darkBlueColor        : #15023b;       // rgb(21, 2, 59)
+$crimsonColor         : #dc143c;       // rgb(220, 20, 60)
+$greenColor           : #008000;       // rgb(0, 128, 0)
+$pastelOrangeColor    : #f5b39b;       // rgb(245, 179, 155) 
+$grayColor            : #797373;       // rgb(121, 115, 115)
+$blackColor           : #000000;       // rgb(0, 0, 0)
+$whiteColor           : #ffffff;       // rgb(255, 255, 255)
+$white1Color          : #faf4f5;       // rgb(250, 244, 245)
+$white2Color          : #f0efef;       // rgb(240, 239, 239)
+
+/* Sizes */
+
+$width                : 768px;
+
+/* Mixin */
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
