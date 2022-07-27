@@ -20,4 +20,10 @@ $width                : 768px;
     @media (max-width: #{$width}){
         @content
     }
-}
+};
+
+@mixin mobile-landscape {
+    @media (orientation: landscape){
+        @content
+    }
+};

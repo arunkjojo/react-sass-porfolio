@@ -1,3 +1,5 @@
+@import './global.scss';
+
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -26,6 +28,17 @@
             height: calc(100vh - 70px);
             scroll-snap-align: start;
             overflow: hidden;
+        }
+
+        
+    }
+
+    @include mobile-landscape {
+        .sections {
+            height: 100%;
+            > * {
+                height: fit-content;
+            }
         }
     }
 }
