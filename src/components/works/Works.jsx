@@ -1,5 +1,5 @@
-import { useState } from "react";
-import "./works.scss";
+import { useState } from 'react'
+import '../../styles/works.scss'
 
 const Works = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

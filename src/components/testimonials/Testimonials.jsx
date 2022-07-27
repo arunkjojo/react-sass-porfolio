@@ -1,4 +1,4 @@
-import './testimonials.scss'
+import '../../styles/testimonials.scss'
 
 const Testimonials = () => {
   const data = [

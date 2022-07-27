@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import './contact.scss';
+import { useState } from 'react'
+import '../../styles/contact.scss'
 
 const Contact = () => {
   const [message, setMessage] = useState(false);

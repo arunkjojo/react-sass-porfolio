@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import './global.scss';
 
 .works {
     background-color: $crimsonColor;
@@ -12,17 +12,17 @@
         position: absolute;
         cursor: pointer;
 
-        @include mobile {
-            display: none;
-        }
-
         &.left {
-            left: 100px;
+            left: 1px;
             transform: rotateY(180deg);
         }
 
         &.right {
-            right: 100px;
+            right: 1px;
+        }
+
+        @include mobile {
+            display: none;
         }
     }
 
@@ -123,7 +123,7 @@
                 }
 
                 .right {
-                    flex: 8;
+                    flex: 5;
                     height: 100%;
                     display: flex;
                     align-items: center;
@@ -131,7 +131,7 @@
                     overflow: hidden;
 
                     img {
-                        width: 400px;
+                        // width: 400px;
                         height: 100%;
                         transform: rotate(-10deg);
                     }

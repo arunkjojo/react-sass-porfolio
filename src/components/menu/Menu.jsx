@@ -1,4 +1,4 @@
-import './menu.scss'
+import '../../styles/menu.scss'
 
 const Menu = ({ menuOpen, setMenuOpen }) => {
   return (

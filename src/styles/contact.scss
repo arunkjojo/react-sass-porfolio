@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import './global.scss';
 
 .contact {
     background-color: $whiteColor;
@@ -11,6 +11,9 @@
     .left {
         flex: 1;
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         img {
             height: 100%;
@@ -29,8 +32,8 @@
         }
 
         form {
-            width: 70%;
-            height: 70%;
+            width: 100%;
+            height: 60%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -42,7 +45,7 @@
                 font-size: 14px;
 
                 @include mobile {
-                    width: 200px;
+                    width: 50%;
                     height: 20px;
                 }
             }
@@ -53,7 +56,7 @@
                 font-size: 14px;
 
                 @include mobile {
-                    width: 200px;
+                    width: 50%;
                     height: 100px;
                 }
             }

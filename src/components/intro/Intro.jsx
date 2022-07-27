@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
-import { init } from "ityped";
-import "./intro.scss";
+import React, { useEffect, useRef } from 'react'
+import '../../styles/intro.scss'
+import { init } from 'ityped'
 
 const Intro = () => {
   const job = useRef();

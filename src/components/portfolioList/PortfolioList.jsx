@@ -1,4 +1,4 @@
-import "./portfolioList.scss";
+import '../../styles/portfolioList.scss'
 
 const PortfolioList = ({ id, title, active, setSelected }) => {
   return (
