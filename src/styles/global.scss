@@ -12,18 +12,18 @@ $white2Color          : #f0efef;       // rgb(240, 239, 239)
 
 /* Sizes */
 
-$width                : 768px;
+$mobile                : 768px;
 
 /* Mixin */
 
 @mixin mobile {
-    @media (max-width: #{$width}){
+    @media (max-width: #{$mobile}) and (orientation: portrait){
         @content
     }
 };
 
 @mixin mobile-landscape {
-    @media (orientation: landscape){
+    @media (max-height: #{$mobile}) and (orientation: landscape){
         @content
     }
 };
